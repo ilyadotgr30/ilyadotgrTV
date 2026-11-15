@@ -1,0 +1,25 @@
+# macOS / IDE
+.DS_Store
+.idea/
+*.iml
+
+# Local Android / Gradle state
+.gradle/
+.kotlin/
+local.properties
+build/
+app/build/
+
+# Signing material and secrets
+.keys/
+*.jks
+*.keystore
+keystore.properties
+
+# Temporary files
+tmp/
+*.log
+
+# APK files are build artifacts; only the published installer is committed.
+*.apk
+!release/ilyadotgrTV-v0.30.0.apk
